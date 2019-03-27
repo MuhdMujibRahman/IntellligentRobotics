@@ -14,8 +14,8 @@ while True:
         if type(lt.data)==int:
             sleep(1)
             continue
-        if lt.data[0]>0 and lt.data[1]>0:
-            print(lt.data[0])
+            
+        print(lt.data)
     except KeyboardInterrupt:
         
         break
